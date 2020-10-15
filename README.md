@@ -17,7 +17,6 @@ This service uses SQL Server container as a backend to persist the messages I ha
 This application is containerized. using Docker. 
 
 Image of this application is also available on the docker hub https://hub.docker.com/repository/docker/chetanmangsuli84/messageswebapi
-Image is also available in the Azure containers location :  audition09081984.azurecr.io/messageswebapi:latest
 
 
 To run the application you can clone the code 
