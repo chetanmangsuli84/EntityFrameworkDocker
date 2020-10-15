@@ -23,7 +23,11 @@ To run the application you can clone the code
 git clone https://github.com/chetanmangsuli84/EntityFrameworkDocker.git
 
 Navigate to the EntityFrameworkDocker Folder and run 
+
+
   docker-compose build
+
+
   docker-compose up
   
 You can now access the WEBAPI using the URL
