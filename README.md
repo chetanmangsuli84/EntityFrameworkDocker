@@ -1,0 +1,12 @@
+This is a simple REST API that allows users to: 
+•	Allows users to submit/post messages 
+•	Lists received messages 
+•	Retrieves a specific message on demand, and determines if it is a palindrome. 
+•	Allows users to delete specific messages 
+•	Build capability into your code so that it can be “observed”(Monitoring/Traceability/metrics)
+
+
+This application is build using the .netcore Entityframework using the code first approach. I have used Swagger as a UI component to test all the functionalities. This application
+is containerized. using Docker. Image of this application is also available on the dokcer hub https://hub.docker.com/repository/docker/chetanmangsuli84/messageswebapi
+
+To run the application you can clone the code using the gitclone 
