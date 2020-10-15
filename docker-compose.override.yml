@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+
+  EntityFrameworkSqlServer:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "32033:80"
