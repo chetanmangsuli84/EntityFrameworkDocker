@@ -6,7 +6,20 @@ This is a simple REST API that allows users to:
 •	Build capability into your code so that it can be “observed”(Monitoring/Traceability/metrics)
 
 
-This application is build using the .netcore Entityframework using the code first approach. I have used Swagger as a UI component to test all the functionalities. This application
-is containerized. using Docker. Image of this application is also available on the dokcer hub https://hub.docker.com/repository/docker/chetanmangsuli84/messageswebapi
+This API is build using the .netcore Entityframework using the code first approach. This service uses SQL Server container as a backend to persist the messages I have used Swagger as a UI component to test all the functionalities. This application is containerized. using Docker. Image of this application is also available on the dokcer hub https://hub.docker.com/repository/docker/chetanmangsuli84/messageswebapi
 
-To run the application you can clone the code using the gitclone 
+To run the application you can clone the code 
+
+git clone https://github.com/chetanmangsuli84/EntityFrameworkDocker.git
+
+Navigate to the EntityFrameworkDocker Folder and run 
+  docker-compose build
+  docker-compose up
+  
+You can now access the WEBAPI using the URL
+
+http://localhost:32033/swagger/index.html
+
+
+
+
