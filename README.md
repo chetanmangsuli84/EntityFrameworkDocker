@@ -17,7 +17,13 @@ This service uses SQL Server container as a backend to persist the messages I ha
 This application is containerized. using Docker. 
 
 Image of this application  is also available on the docker hub https://hub.docker.com/repository/docker/chetanmangsuli84/messageswebapi
+Image of the DB used is available https://hub.docker.com/repository/docker/chetanmangsuli84/mssql-server-linux:2017-latest
 
+DB image can be pulled using 
+docker pull chetanmangsuli84/mssql-server-linux:2017-latest
+
+Application image can be pulled used
+docker pull chetanmangsuli84/messageswebapi:latest
 
 To run the application you can clone the code 
 
