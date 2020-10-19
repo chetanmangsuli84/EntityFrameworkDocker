@@ -46,5 +46,8 @@ You can now access the WEBAPI using the URL
 http://localhost:32033/swagger/index.html
 
 
+[![HitCount](http://hits.dwyl.com/chetanmangsuli84/chetanmangsuli84/EntityFrameworkDocker.svg)](http://hits.dwyl.com/chetanmangsuli84/chetanmangsuli84/EntityFrameworkDocker)
+
+
 
 
